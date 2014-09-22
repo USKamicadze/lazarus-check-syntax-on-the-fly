@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="4">
+    <Name Value="CheckOnTheFly"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)/"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files Count="3">
+      <Item1>
+        <Filename Value="checkontheflyregistration.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="CheckOnTheFlyRegistration"/>
+      </Item1>
+      <Item2>
+        <Filename Value="pascalexprcheckertool.pas"/>
+        <UnitName Value="PascalExprCheckerTool"/>
+      </Item2>
+      <Item3>
+        <Filename Value="checkontheflymain.pas"/>
+        <UnitName Value="checkontheflymain"/>
+      </Item3>
+    </Files>
+    <Type Value="RunAndDesignTime"/>
+    <RequiredPkgs Count="4">
+      <Item1>
+        <PackageName Value="CodeTools"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="IDEIntf"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="SynEdit"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="FCL"/>
+      </Item4>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
