@@ -1,4 +1,4 @@
-lazarus-sheck-syntax-on-the-fly
+lazarus-check-syntax-on-the-fly
 ===============================
 
 simple package for Lazarus IDE that makes syntax check on the fly
